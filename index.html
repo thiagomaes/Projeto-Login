@@ -9,7 +9,11 @@
 	<body>
 		<nav>
 			<button class="button-dark">
-				<img src="brightness-high-fill.svg" id="icon" alt="sol" />
+				<img
+					src="images/brightness-high-fill.svg"
+					id="icon"
+					alt="sol"
+				/>
 			</button>
 		</nav>
 		<div class="main-login">
@@ -19,7 +23,7 @@
 					E comece a explorar nossos serviços!
 				</h1>
 				<img
-					src="tablet-login.svg"
+					src="/images/tablet-login.svg"
 					class="left-image"
 					alt="tablet de login"
 				/>
@@ -54,9 +58,9 @@
 			icon.onclick = function () {
 				document.body.classList.toggle("dark-theme");
 				if (document.body.classList.contains("dark-theme")) {
-					icon.src = "bxs-moon.svg";
+					icon.src = "/images/bxs-moon.svg";
 				} else {
-					icon.src = "brightness-high-fill.svg";
+					icon.src = "/images/brightness-high-fill.svg";
 				}
 			};
 		</script>
